@@ -1,0 +1,46 @@
+body {
+	padding: 20px
+}
+
+.data_container {
+	display:block;	
+}
+
+.providers_container {
+	padding-top: 35px;
+}
+
+.provider {
+	margin: 50px 0;
+}
+
+.provider-label {
+	display: flex;
+	justify-content: flex-start;	
+	align-items: center;					
+}
+
+.provider-icon {   
+	content:"";
+    background-size: 25px 25px;
+    display: inline-block;
+    width: 25px; 
+    height: 25px;
+    margin-left: 5px
+}
+
+#provider1 .provider-icon{
+	background-image: url('../img/icon_provider1.ico');
+}
+#provider2 .provider-icon{
+	background-image: url('../img/icon_provider2.ico');
+}
+#provider3 .provider-icon{
+	background-image: url('../img/icon_provider3.ico');
+}
+#provider4 .provider-icon{
+	background-image: url('../img/icon_provider4.ico');
+}
+
+
+			
