@@ -1,26 +1,31 @@
 @media screen and (max-width: 768px) {
+	
    .graph_container{    
        flex-direction: column-reverse
    }  
+	
    .providers_container {
-	   display: flex;
-	   flex-direction: row;
-	   justify-content: center;
-	   font-size: 10px;
-	   padding-top: 0
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 font-size: 10px;
+	 padding-top: 0;
    }
 
    .provider {
-	   margin-right: 5px
+	margin-right: 5px;
    }
+	
    .provider-label {
       flex-direction: column-reverse;
    }
-   .provider-label i {   
-    	margin-left: 0	
-	}
+	
+   .provider-icon {   
+    	margin-left: 0;	
+   }
 
-	.form-check-inline{
-		margin-right: 2px
-	}
+    .form-check-inline{
+	margin-right: 2px;
+    }
+	
 }
